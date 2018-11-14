@@ -11,17 +11,21 @@
     @stack('head')
 </head>
 <body>
-
 <header>
-    <a href='/'><img src='/images/foobooks-logo@2x.png' id='logo' alt='Foobooks Logo'></a>
+    <h1> Sam's Soup shop</h1>
+        <nav>
+            <ul>
+                <li id="navpart1"><a href="index.html">Main page</a></li>
+                <li id="navpart2"><a href="menu.html">Menu</a></li>
+                <li id="navpart3"><a href="form.html">Online orders</a></li>
+            </ul>
+        </nav>
 </header>
-
 <section>
     @yield('content')
 </section>
-
 <footer>
-    &copy; {{ date('Y') }}
+    <p>Located at 3330 Broadway, NY 10031; Phone: 212-222-4242</p>
 </footer>
 
 {{-- JS global to every page can be loaded here; jQuery included just as an example --}}
@@ -32,10 +36,10 @@
 
 </body>
 </html>
-
+<?php
 /**
  * Created by PhpStorm.
  * User: s999b
- * Date: 11/13/2018
- * Time: 11:32 PM
+ * Date: 11/14/2018
+ * Time: 1:21 PM
  */
