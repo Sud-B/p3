@@ -52,15 +52,15 @@
         <fieldset>
             <legend>Your contact information</legend>
             <label for="name">Your name</label>
-            <input type="text" id="name" value='{{ $name }}' autofocus>
+            <input type="text" id="name" autofocus>
             <br>
             <br>
             <label for="email">Email</label>
-            <input type="email" id="email" value='{{ $email }}'>
+            <input type="email" id="email">
             <br>
             <br>
             <label for="phone">Phone number</label>
-            <input type="tel" id="phone" placeholder="Don't forget the area code!" value='{{ $phone }}'>
+            <input type="tel" id="phone" placeholder="Don't forget the area code!">
             <br>
             <br>
         </fieldset>
