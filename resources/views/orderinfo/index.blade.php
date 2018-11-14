@@ -48,19 +48,19 @@
 <br>
 <div class="border">
     <h2>Enter the order information for your Soup below:</h2>
-    <form>
+    <form method='GET' action='/orderinfo/index'>
         <fieldset>
             <legend>Your contact information</legend>
             <label for="name">Your name</label>
-            <input type="text" id="name" autofocus>
+            <input type="text" id="name" value='{{ $name }}' autofocus>
             <br>
             <br>
             <label for="email">Email</label>
-            <input type="email" id="email">
+            <input type="email" id="email" value='{{ $email }}'>
             <br>
             <br>
             <label for="phone">Phone number</label>
-            <input type="tel" id="phone" placeholder="Don't forget the area code!">
+            <input type="tel" id="phone" placeholder="Don't forget the area code!" value='{{ $phone }}'>
             <br>
             <br>
         </fieldset>
@@ -78,31 +78,31 @@
             <br>
             <p>What type of soup?</p>
             <label>
-                <input type="radio" name="soup" value="soupofday" checked> Soup of the day
+                <input type="radio" name="soup" id="soup" value="soupofday" checked> Soup of the day
             </label>
             <br>
             <label>
-                <input type="radio" name="soup" value="tofugreens"> Tofu and Greens
+                <input type="radio" name="soup" id="soup" value="tofugreens"> Tofu and Greens
             </label>
             <br>
             <label>
-                <input type="radio" name="soup" value="frenchonion"> French Onion
+                <input type="radio" name="soup" id="soup" value="frenchonion"> French Onion
             </label>
             <br>
             <label>
-                <input type="radio" name="soup" value="tomatocheese"> Tomato Cheese
+                <input type="radio" name="soup" id="soup" value="tomatocheese"> Tomato Cheese
             </label>
             <br>
             <label>
-                <input type="radio" name="soup" value="koroankimci"> Korean Kimchi
+                <input type="radio" name="soup" id="soup" value="koroankimci"> Korean Kimchi
             </label>
             <br>
             <label>
-                <input type="radio" name="soup" value="iteccbean"> Italian Escarole Bean
+                <input type="radio" name="soup" id="soup" value="iteccbean"> Italian Escarole Bean
             </label>
             <br>
             <label>
-                <input type="radio" name="soup" value="indlentil"> Indian Lentil
+                <input type="radio" name="soup" id="soup" value="indlentil"> Indian Lentil
             </label>
             <br>
         </fieldset>
