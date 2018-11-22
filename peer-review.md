@@ -9,7 +9,7 @@ P3 Peer Review
     1) I find your interface, clear, clutter free and inviting to use.
     2) I like that it got straight to the point and I could tell what your project was about very easily
     3) This interface is inviting and to the point because the form is visible right away. Also, I found the form concise and   validates well
-    4) Thev response was quick.
+    4) The response was quick.
 
 2. Functional testing
 
