@@ -8,16 +8,14 @@ P3 Peer Review
 
     1) I find your interface, clear, clutter free and inviting to use.
     2) I like that it got straight to the point and I could tell what your project was about very easily
-    3) This interface is inviting because form is visible right away. Also, I found the form concise and validates well
+    3) This interface is inviting and to the point because the form is visible right away. Also, I found the form concise and   validates well
     4) Thev response was quick.
 
 2. Functional testing
 
-However
-
-    1) The form responds well to correct inputs and generates an outcome
+    1) The form responds well to inputs and generates an outcome
 	2) However, after submitting the form, I had slight confusion from the visible mass of code on the left of the form which distracted from the signature below, until I saw the signature below. This is very minor.
-	3) When I played around, the email field checked for validity right away and turned red if there was no "@'. Other field accepted wrong input but I was corrected after submitting.
+	3) When I played around, the email field checked for validity right away and turned red if there was no "@'. Other field accepted wrong input but provided correction messages after submitting.
 	4) The form corrects you if blank fields are submitted
 
 3. Code: Routes
